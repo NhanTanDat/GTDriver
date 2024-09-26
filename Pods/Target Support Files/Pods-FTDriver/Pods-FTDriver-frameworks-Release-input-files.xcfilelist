@@ -1,11 +1,18 @@
 ${PODS_ROOT}/Target Support Files/Pods-FTDriver/Pods-FTDriver-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
 ${BUILT_PRODUCTS_DIR}/MapboxCoreNavigation/MapboxCoreNavigation.framework
 ${BUILT_PRODUCTS_DIR}/MapboxDirections/MapboxDirections.framework
 ${BUILT_PRODUCTS_DIR}/MapboxMaps/MapboxMaps.framework
 ${BUILT_PRODUCTS_DIR}/MapboxNavigation/MapboxNavigation.framework
 ${BUILT_PRODUCTS_DIR}/MapboxSpeech/MapboxSpeech.framework
 ${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework
+${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework
 ${BUILT_PRODUCTS_DIR}/Solar-dev/Solar.framework
+${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
+${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
 ${BUILT_PRODUCTS_DIR}/Turf/Turf.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/MapboxCommon/MapboxCommon.framework/MapboxCommon
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/MapboxCoreMaps/MapboxCoreMaps.framework/MapboxCoreMaps

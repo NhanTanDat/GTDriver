@@ -7,8 +7,29 @@
 	<key>MBXAccessToken</key>
 	<string>pk.eyJ1IjoibmhhbnRhbmRhdCIsImEiOiJjbTA4OGZiMWkxNXJiMmtzaGpqZ28xY3BlIn0.g-pVPb7-0GkkXo--XTbWdQ</string>
 	<key>UIBackgroundModes</key>
-<array>
-    <string>audio</string>
-</array>
+	<array>
+		<string>audio</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>45.130.165.51</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

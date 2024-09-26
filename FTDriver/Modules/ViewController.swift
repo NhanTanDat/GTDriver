@@ -5,7 +5,7 @@ import MapboxDirections
 import MapboxCoreNavigation
 
 class ViewController: UIViewController,NavigationViewControllerDelegate {
-    private var mapView: MapView!
+        private var mapView: MapView!
        private var navigationMapView: NavigationMapView!
        private lazy var trackingButton = UIButton(frame: .zero)
        private lazy var navigateButton = UIButton(frame: .zero)
@@ -25,50 +25,50 @@ class ViewController: UIViewController,NavigationViewControllerDelegate {
         
         
         setupNavigateButton()
-//        // Ví dụ về cách vẽ tuyến đường trên bản đồ
-//        let coordinates: [CLLocationCoordinate2D] = [
-//                   CLLocationCoordinate2D(latitude: 10.816462, longitude: 106.713163),
-//                   CLLocationCoordinate2D(latitude: 10.816508, longitude: 106.713034),
-//                   CLLocationCoordinate2D(latitude: 10.824618, longitude: 106.714029),
-//                   CLLocationCoordinate2D(latitude: 10.825541, longitude: 106.714301),
-//                   CLLocationCoordinate2D(latitude: 10.825769, longitude: 106.714516),
-//                   CLLocationCoordinate2D(latitude: 10.826001, longitude: 106.714509),
-//                   CLLocationCoordinate2D(latitude: 10.826231, longitude: 106.714114),
-//                   CLLocationCoordinate2D(latitude: 10.826001, longitude: 106.713823),
-//                   CLLocationCoordinate2D(latitude: 10.825409, longitude: 106.711509),
-//                   CLLocationCoordinate2D(latitude: 10.825163, longitude: 106.71102),
-//                   CLLocationCoordinate2D(latitude: 10.820677, longitude: 106.694329),
-//                   CLLocationCoordinate2D(latitude: 10.819677, longitude: 106.690043),
-//                   CLLocationCoordinate2D(latitude: 10.82024, longitude: 106.689761),
-//                   CLLocationCoordinate2D(latitude: 10.820769, longitude: 106.689185),
-//                   CLLocationCoordinate2D(latitude: 10.821866, longitude: 106.68858),
-//                   CLLocationCoordinate2D(latitude: 10.820809, longitude: 106.687396),
-//                   CLLocationCoordinate2D(latitude: 10.821862, longitude: 106.686883)
-//               ]
-//        
-//        // Chuyển đổi tọa độ thành LineString
-//                let lineString = LineString(coordinates)
-//
-//                // Tạo nguồn dữ liệu từ LineString
-//                var source = GeoJSONSource()
-//                source.data = .geometry(.lineString(lineString))
-//
-//                // Tạo LineLayer để hiển thị đường trên bản đồ
-//                var lineLayer = LineLayer(id: "route-line-layer")
-//                lineLayer.source = "route-source"
-//                lineLayer.lineColor = .constant(StyleColor(.blue))
-//                lineLayer.lineWidth = .constant(3)
-//
-//        // Sử dụng sự kiện delegate để thêm layer khi bản đồ đã tải xong
-//        navigationMapView.mapView.mapboxMap.onEvery(event: .styleLoaded) { [weak self] _ in
-//                   guard let self = self else { return }
-//                   do {
-//                       try self.navigationMapView.mapView.mapboxMap.style.addSource(source, id: "route-source")
-//                       try self.navigationMapView.mapView.mapboxMap.style.addLayer(lineLayer)
-//                   } catch {
-//                       print("Error adding source or layer: \(error)")
-//                   }
-//               }
+        // Ví dụ về cách vẽ tuyến đường trên bản đồ
+        let coordinates: [CLLocationCoordinate2D] = [
+                   CLLocationCoordinate2D(latitude: 10.816462, longitude: 106.713163),
+                   CLLocationCoordinate2D(latitude: 10.816508, longitude: 106.713034),
+                   CLLocationCoordinate2D(latitude: 10.824618, longitude: 106.714029),
+                   CLLocationCoordinate2D(latitude: 10.825541, longitude: 106.714301),
+                   CLLocationCoordinate2D(latitude: 10.825769, longitude: 106.714516),
+                   CLLocationCoordinate2D(latitude: 10.826001, longitude: 106.714509),
+                   CLLocationCoordinate2D(latitude: 10.826231, longitude: 106.714114),
+                   CLLocationCoordinate2D(latitude: 10.826001, longitude: 106.713823),
+                   CLLocationCoordinate2D(latitude: 10.825409, longitude: 106.711509),
+                   CLLocationCoordinate2D(latitude: 10.825163, longitude: 106.71102),
+                   CLLocationCoordinate2D(latitude: 10.820677, longitude: 106.694329),
+                   CLLocationCoordinate2D(latitude: 10.819677, longitude: 106.690043),
+                   CLLocationCoordinate2D(latitude: 10.82024, longitude: 106.689761),
+                   CLLocationCoordinate2D(latitude: 10.820769, longitude: 106.689185),
+                   CLLocationCoordinate2D(latitude: 10.821866, longitude: 106.68858),
+                   CLLocationCoordinate2D(latitude: 10.820809, longitude: 106.687396),
+                   CLLocationCoordinate2D(latitude: 10.821862, longitude: 106.686883)
+               ]
+        
+        // Chuyển đổi tọa độ thành LineString
+                let lineString = LineString(coordinates)
+
+                // Tạo nguồn dữ liệu từ LineString
+                var source = GeoJSONSource()
+                source.data = .geometry(.lineString(lineString))
+
+                // Tạo LineLayer để hiển thị đường trên bản đồ
+                var lineLayer = LineLayer(id: "route-line-layer")
+                lineLayer.source = "route-source"
+                lineLayer.lineColor = .constant(StyleColor(.blue))
+                lineLayer.lineWidth = .constant(3)
+
+        // Sử dụng sự kiện delegate để thêm layer khi bản đồ đã tải xong
+        navigationMapView.mapView.mapboxMap.onEvery(event: .styleLoaded) { [weak self] _ in
+                   guard let self = self else { return }
+                   do {
+                       try self.navigationMapView.mapView.mapboxMap.style.addSource(source, id: "route-source")
+                       try self.navigationMapView.mapView.mapboxMap.style.addLayer(lineLayer)
+                   } catch {
+                       print("Error adding source or layer: \(error)")
+                   }
+               }
     
     
     }

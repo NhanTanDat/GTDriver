@@ -1,5 +1,5 @@
 {
-  "originHash" : "c48d77ebe93e854e8e2b4bbddf1d5fe4977e5a87efa4e14ea29c90b3e5919e31",
+  "originHash" : "d7c51d1bd220eb356f35d971800b298ad8c78d05efe94d008564fbf995332404",
   "pins" : [
     {
       "identity" : "mapbox-common-ios",
@@ -26,6 +26,42 @@
       "state" : {
         "revision" : "fa5b1b095504ce00583de9a3253b5087f569b836",
         "version" : "11.6.0"
+      }
+    },
+    {
+      "identity" : "mapbox-navigation-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/mapbox-navigation-ios.git",
+      "state" : {
+        "revision" : "7f5c42fec1eff4ee1b32a3fa25dc606938bb90c4",
+        "version" : "3.3.1"
+      }
+    },
+    {
+      "identity" : "mapbox-navigation-native-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/mapbox-navigation-native-ios.git",
+      "state" : {
+        "revision" : "6a1a10f9a2c5c92c7991b7a5c1d8d4a6c49bccde",
+        "version" : "317.0.1"
+      }
+    },
+    {
+      "identity" : "search-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/search-ios.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5a121c7c8d599db0918a7e3a0aea45471de7666a"
+      }
+    },
+    {
+      "identity" : "swift-snapshot-testing",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-snapshot-testing.git",
+      "state" : {
+        "revision" : "26ed3a2b4a2df47917ca9b790a57f91285b923fb",
+        "version" : "1.12.0"
       }
     },
     {

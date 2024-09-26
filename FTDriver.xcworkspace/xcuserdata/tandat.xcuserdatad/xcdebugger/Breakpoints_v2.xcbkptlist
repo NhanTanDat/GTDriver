@@ -3,4 +3,214 @@
    uuid = "246642F7-D742-4216-880D-CE0163E1F59D"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AADC0946-486A-4F04-B7D1-17B5BD0A28B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D8CE197-B1B7-40BD-877B-55572FFC9032"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29A1CE6B-25C2-4E0B-BBF2-2BBABAF66A17"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A52FB405-744D-4757-A50C-3D0CA120D334"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C189CC6-D64B-49CB-8BA9-4122E53A95D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D4A44A4-2F25-4BB5-AB5F-4BCC6A882C57"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7493AA69-B5E8-4744-BB10-9883FC213BE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71D06FFF-6D64-46AB-82D6-2CC53347163C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BC42E75-7AAB-41FC-A86D-7E80055465B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3908E74-0E7B-4004-9205-4586D3E74486"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39B0A5A1-7699-4B7F-BA0A-59693B4394EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF768A56-ABF6-4D02-8C78-943B71350DD8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5CBA271A-85D3-453C-A515-A13D0C0F2BD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FTDriver/Core/Base/Services/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "requestAPI(endPoint:params:signatureHeader:optionalHeaders:showProgressLoading:vc:rawResult:noShowPopupError:methodHTTP:errorCompletion:acceptCompletion:cancelCompletion:customOtpHandler:handlerTextContent:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

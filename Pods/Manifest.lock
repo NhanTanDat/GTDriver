@@ -1,4 +1,7 @@
 PODS:
+  - Alamofire (5.5.0)
+  - FLAnimatedImage (1.0.17)
+  - IQKeyboardManagerSwift (7.1.1)
   - MapboxCommon (23.9.2)
   - MapboxCoreMaps (10.17.0):
     - MapboxCommon (~> 23.9)
@@ -23,16 +26,30 @@ PODS:
     - MapboxCommon (~> 23.9)
   - MapboxSpeech (2.1.1)
   - Polyline (5.1.0)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
   - Solar-dev (3.0.1)
+  - Starscream (4.0.8)
+  - SwiftGifOrigin (1.7.0)
+  - SwiftyJSON (5.0.1)
   - Turf (2.7.0)
 
 DEPENDENCIES:
+  - Alamofire (= 5.5.0)
+  - FLAnimatedImage
+  - IQKeyboardManagerSwift
   - MapboxCoreNavigation (~> 2.18.1)
   - MapboxMaps (~> 10.17.0)
   - MapboxNavigation (~> 2.18.1)
+  - Socket.IO-Client-Swift
+  - SwiftGifOrigin
+  - SwiftyJSON (= 5.0.1)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - FLAnimatedImage
+    - IQKeyboardManagerSwift
     - MapboxCommon
     - MapboxCoreMaps
     - MapboxCoreNavigation
@@ -43,10 +60,17 @@ SPEC REPOS:
     - MapboxNavigationNative
     - MapboxSpeech
     - Polyline
+    - Socket.IO-Client-Swift
     - Solar-dev
+    - Starscream
+    - SwiftGifOrigin
+    - SwiftyJSON
     - Turf
 
 SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
+  IQKeyboardManagerSwift: d7f3d3a562c237a0e7335e657cd598c452f57f1b
   MapboxCommon: 768660d6fca8193529ecf82eb6f5f9ae7a5acdf9
   MapboxCoreMaps: be412ff97b16aa7820922c818115a9a0d8211caa
   MapboxCoreNavigation: a4fa72bdb987dc9ab55615878299bf571f83a2b1
@@ -57,9 +81,13 @@ SPEC CHECKSUMS:
   MapboxNavigationNative: cf3640d04da6e67b701f76b1c502954286efee06
   MapboxSpeech: cd25ef99c3a3d2e0da72620ff558276ea5991a77
   Polyline: 2a1f29f87f8d9b7de868940f4f76deb8c678a5b1
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
   Solar-dev: 4612dc9878b9fed2667d23b327f1d4e54e16e8d0
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   Turf: 13d1a92d969ca0311bbc26e8356cca178ce95da2
 
-PODFILE CHECKSUM: b86fba56ba6ee518ffc653140d938eda98dc5b0e
+PODFILE CHECKSUM: 8278fbc1fbe85c7e805918c5c2aa5c82ea42926b
 
 COCOAPODS: 1.15.2
